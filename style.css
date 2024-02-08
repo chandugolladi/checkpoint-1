@@ -1,0 +1,95 @@
+#logoimage
+{
+    width:50px;
+}
+.navbar {
+    background-color: black;
+    
+}
+
+.nav-link {
+    color:white;
+    font-family: 'Anton', sans-serif;
+    font-size: 17px;
+}
+
+.navbar-brand {
+    color: white;
+    font-family: 'Honk', system-ui;   
+    font-size: 30px;
+}
+
+
+.dropdown-menu{
+    background-color: white;
+}
+
+.jumbotron{
+    background-color: white;
+    width: 100%;
+    height: 90vh;
+    border-radius: 0;
+   
+}
+
+#hero button{
+    width: 140px;
+    font-size: 20px;
+}
+
+#hero h2 {
+    color: black;
+    font-family: 'Anton', sans-serif; 
+    font-size: 40px;
+    
+    }
+
+#hero h1 {
+    color: black;
+    font-family: 'Anton', sans-serif; 
+    font-size: 80px;
+}
+
+#hero p{
+    color:black;
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+}
+
+
+#hero {
+    background-image: url(egypt.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px;
+    margin-top: 0px;
+}
+
+
+#changetext:after {
+    content: "";
+    font-size: 45px;
+    font-family: 'Honk', system-ui;
+    animation-name: changetextpr;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes changetextpr {
+    0% {
+        content: "CHINA";
+    }
+    25% {
+        content: "EGYPT";
+    }
+    50% {
+        content: "DUBAI";
+    }
+    75% {
+        content: "PETRA";
+    }
+    100% {
+        content: "INDIA";
+    }
+}
